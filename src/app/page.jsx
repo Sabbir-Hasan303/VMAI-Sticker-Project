@@ -133,7 +133,15 @@ export default function BarcodeGenerator() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
+    <div className="min-h-screen flex flex-col items-center p-4">
+      <div className="mb-8 mt-4">
+        <img 
+          src="/assets/logo.jpg" 
+          alt="VMAI Logo" 
+          className="h-24 w-auto"
+        />
+      </div>
+
       <Card className="w-full max-w-xl">
         <CardContent className="space-y-6 pt-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
