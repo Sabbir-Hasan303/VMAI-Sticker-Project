@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "VMAI Sticker Generator",
-  description: "This is a sticker generator app for VMAI",
+  description: "Generate barcodes with price and weight information",
 };
 
 export default function RootLayout({ children }) {
