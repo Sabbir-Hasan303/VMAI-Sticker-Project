@@ -37,7 +37,7 @@ export default function BarcodeGenerator() {
     setIsLoading(true);  
     setErrorMessage('');  
     try {  
-      const response = await fetch(`http://127.0.0.1:8000/barcodes/${productCode}`);  
+      const response = await fetch(`https://104.248.96.99/barcodes/${productCode}`);  
       if (response.status === 404) {
         setBarcodes([]);
         setErrorMessage('No product found with this code');
