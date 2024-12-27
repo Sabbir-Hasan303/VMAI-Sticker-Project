@@ -191,6 +191,7 @@ export default function BarcodeGenerator() {
 
       <Card className="w-full max-w-xl shadow-lg border-gray-200">
         <CardContent className="space-y-6 pt-6">
+          <div className='w-full flex justify-end font-bold text-sm'>Duck Product Code: 1050</div>
           <div className="space-y-2">
             <Label htmlFor="productCode">Product Code</Label>
             <div className="flex gap-2">
