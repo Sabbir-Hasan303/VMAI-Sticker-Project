@@ -37,7 +37,7 @@ export default function BarcodeGenerator() {
     setIsLoading(true);  
     setErrorMessage('');  
     try {  
-      const response = await fetch(`https://104.248.96.99/barcodes/${productCode}`);  
+      const response = await fetch(`https://qr.villagemeatagro.com/barcodes/${productCode}`);  
       if (response.status === 404) {
         setBarcodes([]);
         setErrorMessage('No product found with this code');
